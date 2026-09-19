@@ -1,0 +1,29 @@
+version: 1
+
+roles:
+  finance-analyst:
+    groups:
+      - GG_Finance_Users
+      - GG_SAP_ReadOnly
+      - GG_VPN_Standard
+    ou: "OU=Finance,OU=Users,DC=lab,DC=local"
+    licence: E3
+
+  it-support:
+    groups:
+      - GG_IT_Staff
+      - GG_Helpdesk_Admins
+      - GG_VPN_Privileged
+    ou: "OU=IT,OU=Users,DC=lab,DC=local"
+    licence: E5
+
+  hr-advisor:
+    groups:
+      - GG_HR_Users
+      - GG_HR_SharedDrive
+      - GG_VPN_Standard
+    ou: "OU=HR,OU=Users,DC=lab,DC=local"
+    licence: E3
+
+# Synthetic lab configuration only.
+# Do not copy production group names, OU paths or licence data into this repository.
