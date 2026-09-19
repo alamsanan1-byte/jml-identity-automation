@@ -1,0 +1,30 @@
+# PowerShell
+*.clixml
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and generated output
+*.db
+*.sqlite
+*.sqlite3
+output/
+logs/
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
