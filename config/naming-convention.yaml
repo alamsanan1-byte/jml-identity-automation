@@ -1,0 +1,13 @@
+version: 1
+
+username:
+  pattern: "{first_initial}.{surname}"
+  lowercase: true
+  remove_spaces: true
+  collision_suffix_start: 2
+  max_length: 20
+
+home_directory:
+  base_path: "\\\\LAB-FS01\\Home"
+
+# Synthetic lab configuration only.
